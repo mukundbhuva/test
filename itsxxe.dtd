@@ -1,4 +1,4 @@
 <!ENTITY  % data SYSTEM "file:///c:/WINDOWS/system32/drivers/etc/networks">
-<!ENTITY % foo "<!ENTITY &#37; xxe SYSTEM 'file:///nofile/%data;'>">
+<!ENTITY % foo "<!ENTITY &#37; xxe SYSTEM 'file:///c:/WINDOWS/system32/drivers/etc/networks'>">
 %foo;
 %xxe;
